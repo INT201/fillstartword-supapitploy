@@ -5,7 +5,7 @@ function fillStartWord(startWord, word) {
   if(word === null || word === undefined){
     return undefined;
   }
-  if(startWord.includes(word)){     
+  if(word.startsWith(startWord)){     
     return word;
   }
   return startWord + word;
